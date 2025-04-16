@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .search-box {
+    padding: 5px;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .login-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .banner-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .mais-vendidos {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .jogos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .jogo {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .jogo img {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
